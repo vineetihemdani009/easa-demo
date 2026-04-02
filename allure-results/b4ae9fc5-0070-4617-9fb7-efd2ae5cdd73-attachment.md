@@ -1,0 +1,326 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status [ref=e2]: Loading Completed
+  - generic [ref=e3]:
+    - link "Go to main content" [ref=e8] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to search bar" [ref=e13] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to navigation" [ref=e18] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e21]:
+    - button "Toggle runtime toolbar" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: 
+    - button "Toggle Agile Workbench" [disabled] [ref=e33] [cursor=pointer]:
+      - generic [ref=e34]: M
+  - generic [ref=e35]:
+    - banner "Top Panel":
+      - generic [ref=e36]: 
+    - complementary "Left Panel" [ref=e39]:
+      - navigation [ref=e42]:
+        - link "Pega Organisation Approvals" [ref=e45] [cursor=pointer]:
+          - img "Pega" [ref=e49]
+          - generic:
+            - generic: Organisation Approvals
+        - search [ref=e52]:
+          - button "Click to trigger the search" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: 
+          - textbox "Search" [ref=e60]
+        - generic [ref=e62]:
+          - generic [ref=e64]:
+            - link "Create" [ref=e65] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e67]: 
+              - generic [ref=e69]: Create
+              - text:  〉
+            - text: 〉
+          - generic [ref=e71]:
+            - link "Home" [ref=e72] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e74]: 
+              - generic [ref=e76]: Home
+              - text: 
+            - link "My to do list" [ref=e77] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e79]: 
+              - generic [ref=e81]: My to do list
+              - text: 
+            - link "Items I follow" [ref=e82] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e84]: 
+              - generic [ref=e86]: Items I follow
+              - text: 
+            - link "Search Approvals" [ref=e87] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e89]: 
+              - generic [ref=e91]: Search Approvals
+              - text: 
+            - link "Search Organisation Staff" [ref=e92] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e94]: 
+              - generic [ref=e96]: Search Organisation Staff
+              - text: 
+            - link "Dashboards" [ref=e97] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e99]: 
+              - generic [ref=e101]: Dashboards
+              - text: 
+            - link "Activity plan templates" [ref=e102] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e104]: 
+              - generic [ref=e106]: Activity plan templates
+              - text: 
+            - link "Application Admin" [ref=e107] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e109]: 
+              - generic [ref=e111]: Application Admin
+              - text: 
+            - link "Bulk Processing" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e114]: 
+              - generic [ref=e116]: Bulk Processing
+              - text: 
+            - link "Explore Data" [ref=e117] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e119]: 
+              - generic [ref=e121]: Explore Data
+              - text: 
+        - generic [ref=e123]:
+          - generic [ref=e125]:
+            - link "Notifications" [ref=e126] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e128]: 
+              - generic [ref=e130]: Notifications
+              - text: 
+            - link "Recents" [ref=e131] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e133]: 
+              - generic [ref=e135]: Recents
+              - text: 
+            - link "My applications" [ref=e136] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e138]: 
+              - generic [ref=e140]: My applications
+              - text: 
+          - button "Test Automation User Operator menu" [ref=e142] [cursor=pointer]:
+            - button [ref=e144]:
+              - img:
+                - generic: TU
+            - generic [ref=e146]: Test Automation User
+            - generic [ref=e147]: Operator menu
+    - main "Center Panel" [ref=e148]:
+      - generic [ref=e150]:
+        - text: 
+        - generic [ref=e151]:
+          - generic "Top Panel"
+          - region "Center Panel" [ref=e153]:
+            - generic [ref=e159]:
+              - generic [ref=e161]:
+                - generic [ref=e163]:
+                  - generic [ref=e170]:
+                    - generic [ref=e172]:
+                      - generic [ref=e178]: PH-5177
+                      - button "Follow" [ref=e184] [cursor=pointer]:
+                        - generic [ref=e185]: 
+                    - heading "Surveillance" [active] [level=1] [ref=e190]
+                  - generic [ref=e193]:
+                    - button "Complete stage" [disabled] [ref=e196] [cursor=pointer]
+                    - button "Actions" [ref=e199] [cursor=pointer]:
+                      - text: Actions
+                      - generic [ref=e200]: 
+                - generic [ref=e202]:
+                  - button "Collapse summary" [ref=e205] [cursor=pointer]:
+                    - generic [ref=e206]: 
+                  - text: 
+                - generic [ref=e208]:
+                  - generic [ref=e212]:
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: Status
+                      - generic [ref=e219]: Open-Planning
+                    - generic [ref=e220]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]:
+                          - generic [ref=e225]: Approval No.
+                          - link "EASA.145.0017" [ref=e228] [cursor=pointer]:
+                            - /url: "#"
+                        - generic [ref=e229]:
+                          - generic [ref=e230]: Organisation
+                          - generic [ref=e231]: AIR MAURITIUS Ltd.
+                      - generic [ref=e236]:
+                        - generic [ref=e244]:
+                          - generic [ref=e245]: Phase
+                          - generic [ref=e247]: Automation V1
+                        - generic [ref=e250]:
+                          - generic [ref=e254]:
+                            - generic [ref=e255]: Phase Duration
+                            - generic [ref=e256]: 12 months
+                          - generic [ref=e259]:
+                            - generic [ref=e260]:
+                              - generic [ref=e261]: Start date
+                              - generic [ref=e262]: Jan 7, 2026
+                            - generic [ref=e263]:
+                              - generic [ref=e264]: End date
+                              - generic [ref=e265]: Jan 6, 2027
+                            - text: ––
+                  - menubar [ref=e270]:
+                    - menuitem "Activities 0" [ref=e271] [cursor=pointer]:
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Activities
+                        - generic [ref=e274]: "0"
+                    - menuitem "Findings and observations 0" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e276]:
+                        - generic [ref=e277]: Findings and observations
+                        - generic [ref=e278]: "0"
+                    - menuitem "Participants 0" [ref=e279] [cursor=pointer]:
+                      - generic [ref=e280]:
+                        - generic [ref=e281]: Participants
+                        - generic [ref=e282]: "0"
+                    - menuitem "Resource planning" [ref=e283] [cursor=pointer]:
+                      - generic [ref=e285]: Resource planning
+                    - menuitem "Coverage" [ref=e286] [cursor=pointer]:
+                      - generic [ref=e288]: Coverage
+                    - menuitem "Ad hoc actions 0" [ref=e289] [cursor=pointer]:
+                      - generic [ref=e290]:
+                        - generic [ref=e291]: Ad hoc actions
+                        - generic [ref=e292]: "0"
+                    - menuitem "Messaging" [ref=e293] [cursor=pointer]:
+                      - generic [ref=e295]: Messaging
+              - generic [ref=e297]:
+                - generic [ref=e299]:
+                  - generic [ref=e306]:
+                    - generic [ref=e307]:
+                      - generic [ref=e309] [cursor=pointer]:
+                        - generic [ref=e310]:
+                          - img "Completed" [ref=e313]: 
+                          - button "Create" [ref=e316]
+                        - text:   9 
+                      - generic [ref=e318] [cursor=pointer]:
+                        - button "Plan" [ref=e322]
+                        - text: 9 9 9
+                      - generic [ref=e324] [cursor=pointer]:
+                        - button "Investigate" [ref=e328]
+                        - text: 9 9 9
+                      - generic [ref=e330] [cursor=pointer]:
+                        - button "Recommendation" [ref=e334]
+                        - text: 9 9 9 9
+                      - generic [ref=e336] [cursor=pointer]:
+                        - button "Generate Certificate" [ref=e340]
+                        - text: 9 9
+                    - generic "Stages"
+                  - tablist [ref=e342]:
+                    - text: 
+                    - tabpanel "Activities" [ref=e343]:
+                      - generic [ref=e344]:
+                        - text: 
+                        - generic [ref=e345]:
+                          - heading "Activities in this Phase" [level=3] [ref=e348]
+                          - generic [ref=e350]:
+                            - generic [ref=e354] [cursor=pointer]:
+                              - generic "Timeline" [ref=e355]:
+                                - generic [ref=e356]: 
+                              - generic [ref=e357]:
+                                - heading "Timeline" [level=4] [ref=e358]:
+                                  - button "Timeline" [ref=e359]
+                                - generic [ref=e363]:
+                                  - link "Add activity" [ref=e366]:
+                                    - /url: "#"
+                                    - generic [ref=e367]: 
+                                    - text: Add activity
+                                  - link "Add non-audit activity" [ref=e370]:
+                                    - /url: "#"
+                                    - generic [ref=e371]: 
+                                    - text: Add non-audit activity
+                                  - link "Refresh activities" [ref=e374]:
+                                    - /url: "#"
+                                    - generic [ref=e375]: 
+                                    - text: Refresh activities
+                            - generic [ref=e377]:
+                              - heading "Details" [level=4] [ref=e380]
+                              - generic [ref=e388]:
+                                - generic [ref=e389]:
+                                  - generic: 
+                                  - generic [ref=e390]:
+                                    - generic [ref=e392]:
+                                      - generic [ref=e396]: 0 results
+                                      - button "Default view" [ref=e399] [cursor=pointer]:
+                                        - text: Default view
+                                        - generic [ref=e400]: 
+                                      - text: 
+                                      - button "Group" [ref=e403] [cursor=pointer]:
+                                        - generic [ref=e404]: 
+                                        - text: Group
+                                      - button "Fields" [ref=e407] [cursor=pointer]:
+                                        - generic [ref=e408]: 
+                                        - text: Fields
+                                      - button "Keyboard" [ref=e411] [cursor=pointer]:
+                                        - generic [ref=e412]: 
+                                        - text: Keyboard
+                                    - generic [ref=e414]:
+                                      - link "Add activity" [ref=e417] [cursor=pointer]:
+                                        - /url: "#"
+                                        - generic [ref=e418]: 
+                                        - text: Add activity
+                                      - link "Add non-audit activity" [ref=e421] [cursor=pointer]:
+                                        - /url: "#"
+                                        - generic [ref=e422]: 
+                                        - text: Add non-audit activity
+                                      - link "Refresh activities" [ref=e425] [cursor=pointer]:
+                                        - /url: "#"
+                                        - generic [ref=e426]: 
+                                        - text: Refresh activities
+                                - grid [ref=e429]:
+                                  - rowgroup [ref=e430]:
+                                    - row "Activity ID Lead Auditor Description Activity Start Current Status" [ref=e431]:
+                                      - columnheader "Activity ID" [ref=e432] [cursor=pointer]:
+                                        - generic [ref=e433]: Activity ID 
+                                        - button "Activity ID Actions" [ref=e434]
+                                      - columnheader "Lead Auditor" [ref=e436] [cursor=pointer]:
+                                        - generic [ref=e437]: Lead Auditor 
+                                        - button "Lead Auditor Actions" [ref=e438]
+                                      - columnheader "Description" [ref=e440] [cursor=pointer]:
+                                        - generic [ref=e441]: Description 
+                                        - button "Description Actions" [ref=e442]
+                                      - columnheader "Activity Start" [ref=e444] [cursor=pointer]:
+                                        - generic [ref=e445]: Activity Start 
+                                        - button "Activity Start Actions" [ref=e446]
+                                      - columnheader "Current Status" [ref=e448] [cursor=pointer]:
+                                        - generic [ref=e449]: Current Status 
+                                        - button "Current Status Actions" [ref=e450]
+                                    - row "No results" [ref=e452]:
+                                      - gridcell "No results" [ref=e453] [cursor=pointer]
+                    - generic:         
+                    - generic: –– –– / –– –– –– –– ––
+                    - generic:        
+                    - generic:          / 
+                    - text:   tab
+                - generic [ref=e455]:
+                  - generic [ref=e457]:
+                    - text: 
+                    - button [ref=e460] [cursor=pointer]:
+                      - generic [ref=e461]: 
+                  - tablist "Utilities Panel" [ref=e463]:
+                    - generic [ref=e465]:
+                      - generic [ref=e468]:
+                        - generic:
+                          - generic:       
+                      - tab "System Notifications" [ref=e479]:
+                        - paragraph [ref=e481]: "0"
+                      - generic [ref=e484]:
+                        - generic [ref=e486]: 
+                        - generic:
+                          - generic: • 
+                      - generic [ref=e493]:
+                        - generic [ref=e495]: 
+                        - generic [ref=e501]: "0"
+                      - generic [ref=e504]:
+                        - generic [ref=e506]: 
+                        - generic [ref=e511]: "0"
+                    - generic [ref=e515]:
+                      - generic [ref=e517]: 
+                      - generic "Tags" [ref=e521]:
+                        - generic [ref=e524]: "0"
+  - region: 4 results
+  - generic:          
+```

@@ -1,0 +1,508 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status [ref=e2]: Loading Completed
+  - generic [ref=e3]:
+    - link "Go to main content" [ref=e8] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to search bar" [ref=e13] [cursor=pointer]:
+      - /url: "#"
+    - link "Go to navigation" [ref=e18] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=e21]:
+    - button "Toggle runtime toolbar" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: 
+    - button "Toggle Agile Workbench" [disabled] [ref=e33] [cursor=pointer]:
+      - generic [ref=e34]: M
+  - generic [ref=e35]:
+    - banner "Top Panel":
+      - generic [ref=e36]:
+        - text: 
+        - generic [ref=e40]:
+          - text: 
+          - dialog "New Phase" [ref=e41]:
+            - banner [ref=e42]:
+              - generic [ref=e49]:
+                - heading "New Phase" [level=2] [ref=e52]
+                - generic [ref=e54]:
+                  - button "Collapse" [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]: 
+                  - button "Close" [ref=e61] [cursor=pointer]:
+                    - generic [ref=e62]: 
+            - region "Center Panel" [ref=e64]:
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - generic [ref=e74]:
+                    - heading "Details" [level=4] [ref=e77]
+                    - generic [ref=e79]:
+                      - generic [ref=e80]:
+                        - generic [ref=e81]: Phase Type *
+                        - combobox "Phase Type *" [ref=e83] [cursor=pointer]:
+                          - option "Select..."
+                          - option "Initial Investigation"
+                          - option "Change"
+                          - option "Surveillance" [selected]
+                      - generic [ref=e84]:
+                        - generic [ref=e85]: Description *
+                        - generic [ref=e87]:
+                          - textbox "Description *" [active] [ref=e88]:
+                            - /placeholder: ""
+                          - generic [ref=e90]: Value cannot be blank
+                      - generic [ref=e96]:
+                        - checkbox "Manager approval required" [ref=e97] [cursor=pointer]
+                        - generic [ref=e98] [cursor=pointer]: Manager approval required
+                      - generic [ref=e103]:
+                        - generic [ref=e105]:
+                          - heading "Phase team (5)" [level=3] [ref=e107]
+                          - button [ref=e111] [cursor=pointer]:
+                            - generic [ref=e112]: 
+                        - generic [ref=e117]:
+                          - generic [ref=e120]:
+                            - button "PKTraineeTest" [ref=e124] [cursor=pointer]:
+                              - img:
+                                - generic: P
+                            - generic [ref=e126]:
+                              - generic [ref=e130]: PKTraineeTest
+                              - generic [ref=e133]: Deputy Team Leader
+                          - generic [ref=e136]:
+                            - button "TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU" [ref=e140] [cursor=pointer]:
+                              - img:
+                                - generic: T
+                            - generic [ref=e142]:
+                              - generic [ref=e146]: TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU
+                              - generic [ref=e149]: Team Leader
+                          - generic [ref=e152]:
+                            - button "Juan Laverriere" [ref=e156] [cursor=pointer]:
+                              - img:
+                                - generic: JL
+                            - generic [ref=e158]:
+                              - generic [ref=e162]: Juan Laverriere
+                              - generic [ref=e165]: Core Team Member
+                          - generic [ref=e168]:
+                            - img "Rahul Toky operator image" [ref=e173] [cursor=pointer]
+                            - generic [ref=e175]:
+                              - generic [ref=e179]: Rahul Toky
+                              - generic [ref=e182]: Team Member
+                          - generic [ref=e185]:
+                            - button "Test Operator NAA 1" [ref=e189] [cursor=pointer]:
+                              - img:
+                                - generic: T1
+                            - generic [ref=e191]:
+                              - generic [ref=e195]: Test Operator NAA 1
+                              - generic [ref=e197]:
+                                - generic [ref=e198]: Team Member •
+                                - link "NAA" [ref=e204] [cursor=pointer]:
+                                  - /url: "#"
+                                  - generic [ref=e205]: 
+                                  - text: NAA
+                  - generic [ref=e207]:
+                    - heading "Dates" [level=4] [ref=e210]
+                    - generic [ref=e212]:
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: Start date
+                        - group [ref=e216]:
+                          - textbox "Start date" [ref=e217]: 1/7/2026
+                          - button "Start date date picker" [ref=e218] [cursor=pointer]
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: Phase Duration
+                        - combobox "Phase Duration" [ref=e222] [cursor=pointer]:
+                          - option "12 months" [selected]
+                          - option "18 months"
+                          - option "24 months"
+                          - option "30 months"
+                          - option "36 months"
+                          - option "48 months"
+                      - generic [ref=e223]:
+                        - generic [ref=e224]:
+                          - text: Reminder date
+                          - img "A useful reminder of due dates approaching. You may view this via the home page, My Oversight table." [ref=e225] [cursor=pointer]
+                        - group [ref=e227]:
+                          - textbox "Reminder date A useful reminder of due dates approaching. You may view this via the home page, My Oversight table." [ref=e228]: 1/8/26
+                          - button "Selected date is 1/8/26, Reminder date date picker" [ref=e229] [cursor=pointer]
+                      - generic [ref=e233]:
+                        - generic [ref=e234]: End date
+                        - group [ref=e236]:
+                          - textbox [disabled] [ref=e237]: 1/6/2027
+                          - button "End date date picker" [ref=e238] [cursor=pointer]
+                - generic [ref=e239]:
+                  - heading "Resource Planning" [level=2] [ref=e242]
+                  - generic [ref=e250]:
+                    - generic [ref=e252]:
+                      - heading "Hours" [level=4] [ref=e255]
+                      - generic [ref=e257]:
+                        - generic [ref=e258]:
+                          - generic [ref=e259]: Total Working Hours
+                          - textbox "Total Working Hours" [ref=e262]:
+                            - /placeholder: enter the hours
+                        - generic [ref=e263]:
+                          - generic [ref=e264]: Planned Yearly Working Hours
+                          - paragraph [ref=e266]: "0"
+                        - generic [ref=e267]:
+                          - generic [ref=e268]: Total Travel Hours
+                          - textbox "Total Travel Hours" [ref=e271]:
+                            - /placeholder: enter the hours
+                        - generic [ref=e272]:
+                          - generic [ref=e273]: Planned Yearly Travel Hours
+                          - paragraph [ref=e275]: "0"
+                    - generic [ref=e277]:
+                      - heading "Number of ..." [level=4] [ref=e280]
+                      - generic [ref=e282]:
+                        - generic [ref=e283]:
+                          - generic [ref=e284]: Visits
+                          - textbox "Visits" [ref=e287]:
+                            - /placeholder: enter the number of visits
+                        - generic [ref=e288]:
+                          - generic [ref=e289]: Auditor(s)
+                          - textbox "Auditor(s)" [ref=e292]:
+                            - /placeholder: enter the number of auditors
+                    - generic [ref=e294]:
+                      - heading "Comments" [level=4] [ref=e297]
+                      - generic [ref=e299]:
+                        - generic [ref=e300]:
+                          - generic [ref=e301]: Allocation
+                          - textbox "Allocation" [ref=e305]:
+                            - /placeholder: enter your comments
+                        - generic [ref=e306]:
+                          - generic [ref=e307]: Conclusions From Previous RBO Exercise
+                          - textbox "Conclusions From Previous RBO Exercise" [ref=e311]:
+                            - /placeholder: enter your comments
+            - contentinfo "Bottom Panel" [ref=e312]:
+              - generic [ref=e317]:
+                - button "Cancel" [ref=e320] [cursor=pointer]
+                - button "Create" [ref=e325] [cursor=pointer]
+    - complementary "Left Panel" [ref=e326]:
+      - navigation [ref=e329]:
+        - link "Pega Organisation Approvals" [ref=e332] [cursor=pointer]:
+          - img "Pega" [ref=e336]
+          - generic:
+            - generic: Organisation Approvals
+        - search [ref=e339]:
+          - button "Click to trigger the search" [ref=e342] [cursor=pointer]:
+            - generic [ref=e343]: 
+          - textbox "Search" [ref=e347]
+        - generic [ref=e349]:
+          - generic [ref=e351]:
+            - link "Create" [ref=e352] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e354]: 
+              - generic [ref=e356]: Create
+              - text:  〉
+            - text: 〉
+          - generic [ref=e358]:
+            - link "Home" [ref=e359] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e361]: 
+              - generic [ref=e363]: Home
+              - text: 
+            - link "My to do list" [ref=e364] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e366]: 
+              - generic [ref=e368]: My to do list
+              - text: 
+            - link "Items I follow" [ref=e369] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e371]: 
+              - generic [ref=e373]: Items I follow
+              - text: 
+            - link "Search Approvals" [ref=e374] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e376]: 
+              - generic [ref=e378]: Search Approvals
+              - text: 
+            - link "Search Organisation Staff" [ref=e379] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e381]: 
+              - generic [ref=e383]: Search Organisation Staff
+              - text: 
+            - link "Dashboards" [ref=e384] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e386]: 
+              - generic [ref=e388]: Dashboards
+              - text: 
+            - link "Activity plan templates" [ref=e389] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e391]: 
+              - generic [ref=e393]: Activity plan templates
+              - text: 
+            - link "Application Admin" [ref=e394] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e396]: 
+              - generic [ref=e398]: Application Admin
+              - text: 
+            - link "Bulk Processing" [ref=e399] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e401]: 
+              - generic [ref=e403]: Bulk Processing
+              - text: 
+            - link "Explore Data" [ref=e404] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e406]: 
+              - generic [ref=e408]: Explore Data
+              - text: 
+        - generic [ref=e410]:
+          - generic [ref=e412]:
+            - link "Notifications" [ref=e413] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e415]: 
+              - generic [ref=e417]: Notifications
+              - text: 
+            - link "Recents" [ref=e418] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e420]: 
+              - generic [ref=e422]: Recents
+              - text: 
+            - link "My applications" [ref=e423] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e425]: 
+              - generic [ref=e427]: My applications
+              - text: 
+          - button "Test Automation User Operator menu" [ref=e429] [cursor=pointer]:
+            - button [ref=e431]:
+              - img:
+                - generic: TU
+            - generic [ref=e433]: Test Automation User
+            - generic [ref=e434]: Operator menu
+    - main "Center Panel" [ref=e435]:
+      - generic [ref=e437]:
+        - text: 
+        - generic [ref=e438]:
+          - generic "Top Panel" [ref=e439]:
+            - generic [ref=e440]:
+              - heading "Search approvals" [level=1] [ref=e444]
+              - generic [ref=e448]:
+                - generic [ref=e450]:
+                  - generic [ref=e453]:
+                    - button "Close preview" [ref=e458] [cursor=pointer]:
+                      - generic [ref=e459]: 
+                    - generic [ref=e461]:
+                      - generic [ref=e463]: 
+                      - generic [ref=e465]:
+                        - generic [ref=e467]: AIR MAURITIUS Ltd.
+                        - link "EASA.145.0017" [ref=e470] [cursor=pointer]:
+                          - /url: "#"
+                  - generic [ref=e472]:
+                    - heading "Summary" [level=2] [ref=e475]
+                    - generic [ref=e481]:
+                      - link "Go to full organisation info page" [ref=e485] [cursor=pointer]:
+                        - /url: "#"
+                      - tablist [ref=e488]:
+                        - button "scrol to left": 
+                        - generic [ref=e489]:
+                          - tab "Basic Info" [selected] [ref=e490] [cursor=pointer]
+                          - tabpanel "Basic Info" [ref=e491]:
+                            - generic [ref=e493]:
+                              - generic [ref=e496]:
+                                - heading "Business email" [level=3] [ref=e500]
+                                - generic [ref=e505]:
+                                  - link "frederic.renson@easa.europa.eu" [ref=e511] [cursor=pointer]:
+                                    - /url: mailto:frederic.renson@easa.europa.eu
+                                  - generic:
+                                    - generic:
+                                      - generic: ––
+                                  - generic:
+                                    - generic:
+                                      - generic: ––
+                                  - generic:
+                                    - generic:
+                                      - generic: ––
+                              - generic [ref=e514]:
+                                - generic [ref=e516]:
+                                  - heading "Active Phases" [level=3] [ref=e518]
+                                  - button "Create a new phase for this organisation" [ref=e521] [cursor=pointer]:
+                                    - generic [ref=e522]: 
+                                - generic [ref=e526]:
+                                  - generic [ref=e527]:
+                                    - generic [ref=e532]:
+                                      - generic [ref=e534]:
+                                        - link "PH-5178" [ref=e537] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e539]: (Phase)
+                                      - generic [ref=e542]:
+                                        - generic [ref=e543]: ––
+                                        - generic [ref=e544]: no value
+                                    - generic [ref=e549]:
+                                      - generic [ref=e551]:
+                                        - link "PH-5177" [ref=e554] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e556]: (Surveillance)
+                                      - generic [ref=e559]: Automation V1
+                                    - generic [ref=e564]:
+                                      - generic [ref=e566]:
+                                        - link "PH-5176" [ref=e569] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e571]: (Surveillance)
+                                      - generic [ref=e574]: Automation V1
+                                    - generic [ref=e579]:
+                                      - generic [ref=e581]:
+                                        - link "PH-5175" [ref=e584] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e586]: (Initial Investigation)
+                                      - generic [ref=e589]: test
+                                    - generic [ref=e594]:
+                                      - generic [ref=e596]:
+                                        - link "PH-5171" [ref=e599] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e601]: (Surveillance)
+                                      - generic [ref=e604]: Automation V1
+                                  - link "View more" [ref=e609] [cursor=pointer]:
+                                    - /url: "#"
+                              - generic [ref=e612]:
+                                - generic [ref=e614]:
+                                  - heading "Project Team (5)" [level=3] [ref=e616]
+                                  - generic [ref=e620]:
+                                    - text: 
+                                    - button "Prefill team for Phase" [ref=e623] [cursor=pointer]: 
+                                - generic [ref=e628]:
+                                  - generic [ref=e632]:
+                                    - generic [ref=e635]:
+                                      - button "Juan Laverriere" [ref=e639] [cursor=pointer]:
+                                        - img:
+                                          - generic: JL
+                                      - generic [ref=e641]:
+                                        - link "Juan Laverriere" [ref=e646] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e649]: Core Team Member
+                                        - generic [ref=e653]: User is not linked with a top organisation - check data sanity
+                                    - generic [ref=e656]:
+                                      - button "PKTraineeTest" [ref=e660] [cursor=pointer]:
+                                        - img:
+                                          - generic: P
+                                      - generic [ref=e662]:
+                                        - link "PKTraineeTest" [ref=e667] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e670]: Deputy Team Leader
+                                        - generic [ref=e674]: User is not linked with a top organisation - check data sanity
+                                    - generic [ref=e677]:
+                                      - img "Rahul Toky operator image" [ref=e682] [cursor=pointer]
+                                      - generic [ref=e684]:
+                                        - link "Rahul Toky" [ref=e689] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e692]: Team Member
+                                        - generic [ref=e696]: User is not linked with a top organisation - check data sanity
+                                    - generic [ref=e699]:
+                                      - button "Test Operator NAA 1" [ref=e703] [cursor=pointer]:
+                                        - img:
+                                          - generic: T1
+                                      - generic [ref=e705]:
+                                        - link "Test Operator NAA 1" [ref=e710] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e713]: Team Member
+                                        - generic [ref=e717]: User is not linked with a top organisation - check data sanity
+                                    - generic [ref=e720]:
+                                      - button "TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU" [ref=e724] [cursor=pointer]:
+                                        - img:
+                                          - generic: T
+                                      - generic [ref=e726]:
+                                        - link "TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU" [ref=e731] [cursor=pointer]:
+                                          - /url: "#"
+                                        - generic [ref=e734]: Team Leader
+                                        - generic [ref=e736]:
+                                          - link "EASA" [ref=e745] [cursor=pointer]:
+                                            - /url: "#"
+                                            - generic [ref=e746]: 
+                                            - text: EASA
+                                          - generic [ref=e748]: European Union Aviation Safety Agency
+                                  - text: 
+                        - tab "Locations" [ref=e750] [cursor=pointer]
+                        - generic [ref=e751]:
+                          - tab "Org staff" [ref=e752] [cursor=pointer]
+                          - text:  
+                        - generic [ref=e753]:
+                          - tab "Documents" [ref=e754] [cursor=pointer]
+                          - text:  • • • • •
+                        - tab "Scope" [ref=e756] [cursor=pointer]
+                        - generic [ref=e757]:
+                          - button "scrol to right" [ref=e758] [cursor=pointer]: 
+                          - button "navigation menu" [ref=e759]:
+                            - generic [ref=e760]: 
+                        - text: tab
+                - table:
+                  - rowgroup:
+                    - row:
+                      - cell
+          - region "Center Panel" [ref=e762]:
+            - generic [ref=e767]:
+              - generic [ref=e768]:
+                - generic: 
+                - generic [ref=e769]:
+                  - generic [ref=e771]:
+                    - generic [ref=e775]: 4 results
+                    - button "Default view" [ref=e778] [cursor=pointer]:
+                      - text: Default view
+                      - generic [ref=e779]: 
+                    - text: 
+                    - button "Group" [ref=e782] [cursor=pointer]:
+                      - generic [ref=e783]: 
+                      - text: Group
+                    - button "Fields" [ref=e786] [cursor=pointer]:
+                      - generic [ref=e787]: 
+                      - text: Fields
+                    - button "Density" [ref=e790] [cursor=pointer]:
+                      - generic [ref=e791]: 
+                      - text: Density
+                    - button "Keyboard" [ref=e794] [cursor=pointer]:
+                      - generic [ref=e795]: 
+                      - text: Keyboard
+                  - generic [ref=e797]:
+                    - button "" [ref=e800] [cursor=pointer]
+                    - textbox "Enter text to search" [ref=e803]:
+                      - /placeholder: Search...
+                    - button "Clear filters" [ref=e806] [cursor=pointer]
+                    - generic [ref=e807]:
+                      - generic [ref=e808]: ––
+                      - generic [ref=e809]: no value
+                    - generic [ref=e811]: results
+              - grid "Search results for business entity" [ref=e814]:
+                - rowgroup [ref=e815]:
+                  - row "Domain Approval number Trade name Team Leader Country Approval Status" [ref=e816]:
+                    - columnheader "Domain" [ref=e817] [cursor=pointer]:
+                      - generic [ref=e818]: Domain 
+                      - button "Domain Actions" [ref=e819]
+                    - columnheader "Approval number" [ref=e821] [cursor=pointer]:
+                      - generic [ref=e822]:
+                        - text: Approval number
+                        - generic [ref=e824]: 
+                      - button "Approval number Actions" [ref=e825]
+                    - columnheader "Trade name" [ref=e827] [cursor=pointer]:
+                      - generic [ref=e828]: Trade name 
+                      - button "Trade name Actions" [ref=e829]
+                    - columnheader "Team Leader" [ref=e831]:
+                      - generic [ref=e832]: Team Leader
+                      - button "Team Leader Actions" [ref=e833] [cursor=pointer]
+                    - columnheader "Country" [ref=e835] [cursor=pointer]:
+                      - generic [ref=e836]: Country 
+                      - button "Country Actions" [ref=e837]
+                    - columnheader "Approval Status" [ref=e839] [cursor=pointer]:
+                      - generic [ref=e840]: Approval Status 
+                      - button "Approval Status Actions" [ref=e841]
+                  - row "MOA EASA.145.0017 AIR MAURITIUS Ltd. TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU Mauritius Valid" [ref=e843]:
+                    - gridcell "MOA" [ref=e844] [cursor=pointer]:
+                      - generic [ref=e845]: MOA
+                    - gridcell "EASA.145.0017" [ref=e846] [cursor=pointer]:
+                      - generic "EASA.145.0017" [ref=e848]
+                    - gridcell "AIR MAURITIUS Ltd." [ref=e849] [cursor=pointer]:
+                      - generic [ref=e850]: AIR MAURITIUS Ltd.
+                    - gridcell "TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU" [ref=e851] [cursor=pointer]:
+                      - generic [ref=e852]: TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU
+                    - gridcell "Mauritius" [ref=e853] [cursor=pointer]:
+                      - generic [ref=e854]: Mauritius
+                    - gridcell "Valid" [ref=e855] [cursor=pointer]:
+                      - generic [ref=e856]: Valid
+                  - row "MOA EASA.145.0017 AIR MAURITIUS Ltd. TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU Romania Valid" [ref=e857]:
+                    - gridcell "MOA" [ref=e858] [cursor=pointer]:
+                      - generic [ref=e859]: MOA
+                    - gridcell "EASA.145.0017" [ref=e860] [cursor=pointer]:
+                      - link "EASA.145.0017" [ref=e862]:
+                        - /url: "#"
+                    - gridcell "AIR MAURITIUS Ltd." [ref=e863] [cursor=pointer]:
+                      - generic [ref=e864]: AIR MAURITIUS Ltd.
+                    - gridcell "TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU" [ref=e865] [cursor=pointer]:
+                      - generic [ref=e866]: TOMAS.FLEIDERMAN.EXT.tst@EASA.EUROPA.EU
+                    - gridcell "Romania" [ref=e867] [cursor=pointer]:
+                      - generic [ref=e868]: Romania
+                    - gridcell "Valid" [ref=e869] [cursor=pointer]:
+                      - generic [ref=e870]: Valid
+  - region: 4 results
+  - generic:          
+```

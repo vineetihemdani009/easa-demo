@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","73663","ESA Base Framework (Excel + POM)","chromium","2026-03-23","passed","2026-03-23","","tests\completeFlow.spec.js","",""
+"","70675","ESA Base Framework (Excel + POM)","chromium","2026-03-23","passed","2026-03-23","","tests\e2eFlow.spec.js","",""
+"","44736","test","chromium","2026-03-23","failed","2026-03-23","","tests\easaNonPOM.spec.js","",""
+"","35908","ESA Base Framework (Excel + POM)","chromium","2026-03-23","passed","2026-03-23","","tests\assertion.spec.js","",""
