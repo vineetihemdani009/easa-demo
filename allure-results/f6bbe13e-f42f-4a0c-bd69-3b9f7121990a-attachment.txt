@@ -1,4 +1,0 @@
-Phase ID: PH-5227
-Phase Status: Open-Planning
-Activity ID: EASA.145.0017-ACT-26-251
-Activity Status: Open-PrePlanning
