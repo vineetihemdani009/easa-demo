@@ -53,7 +53,7 @@ test('ESA Base Framework (Excel + POM)', async ({ page }) => {
   await activity.addCheckList(data.activity);
 
   //---Add Location to the Activity---
-  await activity.addLocation(data.activity);
+ // await activity.addLocation(data.activity);
 
   //--- Save Activity Details---
   await activity.saveActivityDetails();
