@@ -6,7 +6,9 @@ import { PhasePage } from '../page-objects/PhasePage.js';
 import { ActivityPage } from '../page-objects/ActivityPage.js';
 import { LogoutPage } from '../page-objects/LogoutPage.js';
 
-test('ESA Base Framework (Excel + POM)', async ({ page }) => {
+test('EASA Phase Creation and Activity Creation Test Case', async ({ page }) => {
+
+   test.setTimeout(600000);
 
   const variant = (process.env.ESA_VARIANT || 'V1').trim().toUpperCase();
   const data = getData(variant);
@@ -23,16 +25,31 @@ test('ESA Base Framework (Excel + POM)', async ({ page }) => {
   await search.openApproval(data.approval.ApprovalNumber);
   await page.waitForTimeout(5000);
 
+  
   await phase.createPhase(data.phase.PhaseType, data.phase.PhaseDescription);
 
   await phase.createStartDate(data.phase);
   await phase.selectPhaseDurationIfSurveillance(data.phase);
   await phase.createReminderDate(data.phase);
   await phase.createDueDate(data.phase);
+ 
+
+  //--- Check if Phase Team Member is Added---
+  const isNoTeamMember  = await phase.isNoPhaseTeamMember();
+ 
   await phase.savePhaseDetails();
   await phase.capturePhaseData();
-  await page.waitForTimeout(2000);
 
+  //--- If No team Member Added, then verify Validation Message---
+  if (isNoTeamMember) {
+    await phase.verifyNoTeamMemberErrorMessage();
+    await phase.addTeamMemberToPhaseTeam(data.phase.StakeHolderRole, data.phase.StakeHolderName);
+    await page.waitForTimeout(2000);
+    
+  }
+ 
+  //await phase.openPhaseID('PH-5403');
+  // await page.pause();
   
   //--- Click on Create Activity button---
   await activity.createActivity(data.activity);
@@ -53,7 +70,7 @@ test('ESA Base Framework (Excel + POM)', async ({ page }) => {
   await activity.addCheckList(data.activity);
 
   //---Add Location to the Activity---
-  await activity.addLocation(data.activity);
+ // await activity.addLocation(data.activity);
 
   //--- Save Activity Details---
   await activity.saveActivityDetails();

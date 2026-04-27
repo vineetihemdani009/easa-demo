@@ -24,14 +24,20 @@ export class ActivityPage {
         await this.page.getByText(data.ActivityType, { exact: true }).click();
 
     }
-    
+
 
     //---Select Estimated Start Date as provided in excel---
     async selectActivityStartDate(data) {
 
 
         await this.page.locator('[data-test-id="202010270812270320970_startDate_DateRange"]').click();
-        await this.page.getByRole('cell', { name: String(data.StartDay), exact: true }).nth(2).click();
+        await this.page.waitForTimeout(2000);
+
+        console.log('Start Date of Activity:', String(data.StartDay).trim());
+        console.log('End Date of Activity:', String(data.EndDay).trim());
+        await this.page.getByRole('button', { name: String(data.StartDay).trim() }).click();
+
+
     }
 
     //---Select Estimated End Date as provided in excel---
@@ -39,9 +45,13 @@ export class ActivityPage {
 
 
         await this.page.locator('[data-test-id="202010270812270320970_endDate_DateRange"]').click();
-        await this.page.getByRole('cell', { name: String(data.EndDay) }).nth(2).click();
+        await this.page.waitForTimeout(2000);
+        const day = String(data.EndDay).trim();
+        await this.page.getByRole('button', { name: String(data.EndDay).trim() }).click();
+
+
     }
-         
+
 
     //---Add Auditor details to the Activity---
     async addAuditor(data) {
